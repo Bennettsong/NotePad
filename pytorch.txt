@@ -1,0 +1,5 @@
+1、pytorch中的标签都是LongTensor
+2、torch通过.type转换类型
+例x = torch.cat((x0,x1),0).type(torch.FloatTensor)
+FloatTensor = 32-bit floating
+LongTensor = 64-bit integer
